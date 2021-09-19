@@ -1,0 +1,142 @@
+{
+  "config": {
+    "logged_user_id": 1
+  },
+  "users": {
+    "1": {
+      "id": 1,
+      "class": "Owner",
+      "display_name": "Kandidat Intervju"
+    },
+    "2": {
+      "id": 2,
+      "class": "Owner",
+      "display_name": "Bojan Ratkovic"
+    },
+    "3": {
+      "id": 3,
+      "class": "Member",
+      "display_name": "Darko Lesendric"
+    },
+    "4": {
+      "id": 4,
+      "class": "Client",
+      "display_name": "Mack The Client"
+    }
+  },
+  "projects": {
+    "1": {
+      "id": 1,
+      "class": "Project",
+      "name": "Mob Kanban",
+      "company_id": 1,
+      "created_by_id": 2,
+      "label_id": 1
+    },
+    "2": {
+      "id": 2,
+      "class": "Project",
+      "name": "Test Application",
+      "company_id": 1
+    },
+    "3": {
+      "id": 3,
+      "class": "Project",
+      "name": "Backlog",
+      "company_id": 1,
+      "label_id": 1
+    },
+    "4": {
+      "id": 4,
+      "class": "Project",
+      "name": "Design System and Website Redesign",
+      "company_id": 2,
+      "created_by_id": 1,
+      "label_id": 2
+    },
+    "5": {
+      "id": 5,
+      "class": "Project",
+      "name": "Marketing Content",
+      "company_id": 2,
+      "label_id": 3
+    },
+    "6": {
+      "id": 6,
+      "class": "Project",
+      "name": "DevOps ⚙️ Automation, payments and services, webservices and jobs, very long name of Project",
+      "company_id": 3,
+      "created_by_id": 3,
+      "label_id": 4
+    },
+    "7": {
+      "id": 7,
+      "class": "Project",
+      "name": "Desktop application development",
+      "company_id": 1
+    },
+    "8": {
+      "id": 8,
+      "class": "Project",
+      "name": "Desktop application development",
+      "company_id": 1,
+      "label_id": 3
+    },
+    "9": {
+      "id": 9,
+      "class": "Project",
+      "name": "Market Research",
+      "company_id": 1,
+      "label_id": 2
+    },
+    "10": {
+      "id": 10,
+      "class": "Project",
+      "name": "Stationary",
+      "company_id": 3
+    }
+  },
+  "favorites": {
+    "Project": [1, 4]
+  },
+  "companies": {
+    "1": {
+      "id": 1,
+      "name": "ActiveCollab"
+    },
+    "2": {
+      "id": 2,
+      "name": "Apple Inc"
+    },
+    "3": {
+      "id": 3,
+      "name": "Google"
+    },
+    "4": {
+      "id": 4,
+      "name": "Nike"
+    }
+  },
+  "project_labels": {
+    "1": {
+      "id": 1,
+      "color": "#FF9C9C",
+      "name": "BACKLOG"
+    },
+    "2": {
+      "id": 2,
+      "color": "#FF9C9C",
+      "name": "CANCELED"
+    },
+    "3": {
+      "id": 3,
+      "color": "#FDF196",
+      "name": "NEW"
+    },
+    "4": {
+      "id": 4,
+      "color": "#C3E799",
+      "name": "INPROGRESS"
+    }
+  }
+}
